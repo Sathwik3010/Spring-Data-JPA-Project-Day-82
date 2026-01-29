@@ -1,0 +1,14 @@
+Spring JPA 
+----------
+Spring JPA is better than compared to Spring ORM as it is Advanced Model it is also like doing same like object saving in database where we did in hibernate
+
+for this now create a maven project in maven setting catalog as internal
+set mavenarchtypequcikstart 1.1 & set Artifact Id as springdatajpa which is nothing but project name
+
+now to do this project we have to add the dependencies from maven repository to pom.xml in the project
+
+springcontext--->5.3.31
+hibernate-core-->5.6.15
+MySQL connector-->8.3.0
+spring data jpa-->2.7.18
+lombok-->1.18.42

@@ -12,3 +12,19 @@ hibernate-core-->5.6.15
 MySQL connector-->8.3.0
 spring data jpa-->2.7.18
 lombok-->1.18.42
+
+------------------------------------------------------
+in this we don't need to write dao layers of 2 files like dao file and daoimpl file instead of that we create the repo package and in that we create this interface of the below code
+
+package com.codegnan.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.codegnan.entity.Student;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Integer>{
+
+}
+--------------------------------------------------------------------------
